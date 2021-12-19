@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_RMX2076.mk
+    $(LOCAL_DIR)/twrp_RMX2076.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_RMX2076-user \
-    omni_RMX2076-userdebug \
-    omni_RMX2076-eng
+    twrp_RMX2076-user \
+    twrp_RMX2076-userdebug \
+    twrp_RMX2076-eng
