@@ -1,4 +1,4 @@
-#
+ #
 # Copyright (C) 2021 The Android Open Source Project
 # Copyright (C) 2021 SebaUbuntu's TWRP device tree generator
 #
@@ -112,28 +112,5 @@ TARGET_USES_MKE2FS := true
 TARGET_USES_LOGD := true
 TWRP_INCLUDE_LOGCAT := true
 
-# Hack: prevent anti rollback
-PLATFORM_SECURITY_PATCH := 2099-12-31
-VENDOR_SECURITY_PATCH := 2099-12-31
-PLATFORM_VERSION := 16.1.0
-
 # TWRP Configuration
 RECOVERY_VARIANT := twrp
-TW_THEME := portrait_hdpi
-TW_Y_OFFSET := 80
-TW_H_OFFSET := -80
-TW_EXTRA_LANGUAGES := true
-#TW_SCREEN_BLANK_ON_BOOT := true
-TW_USE_TOOLBOX := true
-TW_INCLUDE_CRYPTO := true
-TW_EXCLUDE_TWRPAPP := true
-TW_SCREEN_BLANK_ON_BOOT := true
-TW_EXCLUDE_SUPERSU := true
-TW_EXTRA_LANGUAGES := true
-TW_DEFAULT_LANGUAGE := en
-TW_MAX_BRIGHTNESS := 2047
-TW_DEFAULT_BRIGHTNESS := 900
-TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
-#TW_OZIP_DECRYPT_KEY := "acaa1e12a71431ce4a1b21bba1c1c6a2"
-
