@@ -117,13 +117,14 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # pb
-TW_DEVICE_VERSION :=BY Scissordragonboy
+TW_DEVICE_VERSION := BY Scissordragonboy
 TW_Y_OFFSET := 50
 TW_H_OFFSET := -50
 TW_INCLUDE_LOGICAL := my_product my_engineering common_preload special_preload
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_EXLUCDE_APEX := true
+TW_NO_SCREEN_BLANK := true
 
 # TWRP specific build flags
 RECOVERY_SDCARD_ON_DATA := true
